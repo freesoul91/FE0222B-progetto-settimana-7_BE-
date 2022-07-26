@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inserimento id contatto da Eliminare dal db!</title>
+</head>
+<body>
+<h1>INSERISCI L'ID DEL CONTATTO DA ELIMINARE</h1><br>
+	
+	<form method="post" action="http://localhost:8080/RubricaWeb/miaservlet">
+	ID del contatto da Eliminare: <input type="text" name="id"><br><br>
+	<input type="hidden" name="operazione" value="deletecontatto">
+	<input type="submit" value="invia"><br>
+	</form><br>
+	<a href="index.html">Torna alla Home</a>
+</body>
+</html>

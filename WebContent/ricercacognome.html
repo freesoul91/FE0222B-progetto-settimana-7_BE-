@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ricerca contatto con cognome</title>
+</head>
+<body>
+	<h1>INSERISCI I DATI DEL CONTATTO</h1><br>
+	<p>N.B.: è possibile immetere anche il parziale del cognome da ricercare!</p>
+	<form method="post" action="http://localhost:8080/RubricaWeb/miaservlet">
+	Cognome da Ricercare: <input type="text" name="cognome"><br><br>
+	<input type="hidden" name="operazione" value="ricercacognome">
+	<input type="submit" value="invia"><br>
+	</form><br>
+	<a href="index.html">Torna alla Home</a>
+</body>
+</html>

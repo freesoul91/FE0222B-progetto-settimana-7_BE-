@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert contatto con due numeri</title>
+</head>
+<body>
+<form method="post" action="http://localhost:8080/RubricaWeb/miaservlet">
+	<h1>INSERISCI I DATI DEL CONTATTO (2 Numeri OBBLIGATORI)</h1>
+	Nome: <input type="text" name="nome"><br><br>
+	Cognome: <input type="text" name="cognome"><br><br>
+	E-Mail: <input type="text" name="email"><br><br>
+	<br><h1>Numeri di Telefono</h1>
+		Numero 1: <input type="text" name="numero1"><br>
+		Numero 2: <input type="text" name="numero2"><br><br>
+		<input type="hidden" name="operazione" value="insertduenumeri">
+		<input type="submit" value="invia"><br>
+	</form>
+</body>
+</html>
